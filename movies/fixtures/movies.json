@@ -1,0 +1,119 @@
+[
+  {
+    "model": "movies.movie",
+    "pk": 507086,
+    "fields": {
+      "title": "Jurassic World Dominion",
+      "overview": "Four years after Isla Nublar was destroyed, dinosaurs now live—and hunt—alongside humans all over the world. This fragile balance will reshape the future and determine, once and for all, whether human beings are to remain the apex predators on a planet they now share with history’s most fearsome creatures.",
+      "genre": 28,
+      "url": "https://image.tmdb.org/t/p/w780/kAVRgw7GgK1CfYEJq8ME6EvRIgU.jpg",
+      "release_date": "2022-06-01",
+      "vote_average": 7,
+      "vote_count": 1794
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 438148,
+    "fields": {
+      "title": "Minions: The Rise of Gru",
+      "overview": "A fanboy of a supervillain supergroup known as the Vicious 6, Gru hatches a plan to become evil enough to join them, with the backup of his followers, the Minions.",
+      "genre": 10751,
+      "url": "https://image.tmdb.org/t/p/w780/wKiOkZTN9lUUUNZLmtnwubZYONg.jpg",
+      "release_date": "2022-06-29",
+      "vote_average": 7.5,
+      "vote_count": 425
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 361743,
+    "fields": {
+      "title": "Top Gun: Maverick",
+      "overview": "After more than thirty years of service as one of the Navy’s top aviators, and dodging the advancement in rank that would ground him, Pete “Maverick” Mitchell finds himself training a detachment of TOP GUN graduates for a specialized mission the likes of which no living pilot has ever seen.",
+      "genre": 18,
+      "url": "https://image.tmdb.org/t/p/w780/62HCnUTziyWcpDaBO2i1DX17ljH.jpg",
+      "release_date": "2022-05-24",
+      "vote_average": 8.4,
+      "vote_count": 1620
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 718789,
+    "fields": {
+      "title": "Lightyear",
+      "overview": "Legendary Space Ranger Buzz Lightyear embarks on an intergalactic adventure alongside a group of ambitious recruits and his robot companion Sox.",
+      "genre": 16,
+      "url": "https://image.tmdb.org/t/p/w780/ox4goZd956BxqJH6iLwhWPL9ct4.jpg",
+      "release_date": "2022-06-15",
+      "vote_average": 7.2,
+      "vote_count": 808
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 756999,
+    "fields": {
+      "title": "The Black Phone",
+      "overview": "Finney Shaw, a shy but clever 13-year-old boy, is abducted by a sadistic killer and trapped in a soundproof basement where screaming is of little use. When a disconnected phone on the wall begins to ring, Finney discovers that he can hear the voices of the killer’s previous victims. And they are dead set on making sure that what happened to them doesn’t happen to Finney.",
+      "genre": 27,
+      "url": "https://image.tmdb.org/t/p/w780/p9ZUzCyy9wRTDuuQexkQ78R2BgF.jpg",
+      "release_date": "2022-06-22",
+      "vote_average": 7.9,
+      "vote_count": 856
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 453395,
+    "fields": {
+      "title": "Doctor Strange in the Multiverse of Madness",
+      "overview": "Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.",
+      "genre": 14,
+      "url": "https://image.tmdb.org/t/p/w780/61PVJ06oecwvcBisoAQu6SDfdcS.jpg",
+      "release_date": "2022-05-04",
+      "vote_average": 7.5,
+      "vote_count": 4614
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 616037,
+    "fields": {
+      "title": "Thor: Love and Thunder",
+      "overview": "After his retirement is interrupted by Gorr the God Butcher, a galactic killer who seeks the extinction of the gods, Thor enlists the help of King Valkyrie, Korg, and ex-girlfriend Jane Foster, who now inexplicably wields Mjolnir as the Mighty Thor. Together they embark upon a harrowing cosmic adventure to uncover the mystery of the God Butcher’s vengeance and stop him before it’s too late.",
+      "genre": 28,
+      "url": "https://image.tmdb.org/t/p/w780/pIkRyD18kl4FhoCNQuWxWu5cBLM.jpg",
+      "release_date": "2022-07-08",
+      "vote_average": 6.7,
+      "vote_count": 1147
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 961484,
+    "fields": {
+      "title": "Last Seen Alive",
+      "overview": "After Will Spann's wife suddenly vanishes at a gas station, his desperate search to find her leads him down a dark path that forces him to run from authorities and take the law into his own hands.",
+      "genre": 53,
+      "url": "https://image.tmdb.org/t/p/w780/qvqyDj34Uivokf4qIvK4bH0m0qF.jpg",
+      "release_date": "2022-05-19",
+      "vote_average": 6.7,
+      "vote_count": 138
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 924482,
+    "fields": {
+      "title": "The Ledge",
+      "overview": "A rock climbing adventure between two friends turns into a terrifying nightmare. After Kelly captures the murder of her best friend on camera, she becomes the next target of a tight-knit group of friends who will stop at nothing to destroy the evidence and anyone in their way. Desperate for her safety, she begins a treacherous climb up a mountain cliff and her survival instincts are put to the test when she becomes trapped with the killers just 20 feet away.",
+      "genre": 53,
+      "url": "https://image.tmdb.org/t/p/w780/mKFT6Q7PjrRLYuPLfmH4WLCXOiD.jpg",
+      "release_date": "2022-02-18",
+      "vote_average": 6.2,
+      "vote_count": 62
+    }
+  }
+]
