@@ -30,8 +30,6 @@ ALLOWED_HOSTS = []
 if not DEBUG:
     ALLOWED_HOSTS = [os.environ.get('DJANGO_ALLOWED_HOSTS')]
 
-print('ALLOWED_HOSTS', ALLOWED_HOSTS)
-print('SECRET_KEY', SECRET_KEY)
 
 # Application definition
 

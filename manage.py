@@ -6,7 +6,9 @@ import dotenv
 
 def main():
     """Run administrative tasks."""
-    dotenv.read_dotenv()
+    if os.environ.get('DEBUG'):
+        dotenv.read_dotenv()
+        
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'core.settings')
     try:
         from django.core.management import execute_from_command_line
