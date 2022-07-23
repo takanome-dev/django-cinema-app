@@ -8,6 +8,8 @@ django = "*"
 pylint-django = "*"
 psycopg2-binary = "*"
 django-dotenv = "*"
+gunicorn = "*"
+whitenoise = "*"
 
 [dev-packages]
 
