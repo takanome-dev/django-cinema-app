@@ -1,14 +1,38 @@
 {% extends 'base.html' %} {% block content %}
-<dl>
-  <dt>Title</dt>
-  <dd>{{movie.title}}</dd>
-  <dt>Overview</dt>
-  <dd>{{movie.overview}}</dd>
-  <dt>Genre</dt>
-  <dd>{{movie.genre}}</dd>
-  <dt>Release Date</dt>
-  <dd>{{movie.release_date}}</dd>
-  <dt>Votes</dt>
-  <dd>{{movie.vote_count}}</dd>
-</dl>
+<nav style="--bs-breadcrumb-divider: '>'">
+  <ol class="breadcrumb bg-transparent pt-3">
+    <li class="breadcrumb-item">
+      <a href="{% url 'movies:index' %}">Movies</a>
+    </li>
+    <li class="breadcrumb-item active">{{movie.title}}</li>
+  </ol>
+</nav>
+<div class="row">
+  <div class="col-md-6 mb-3">
+    <img src="{{movie.url}}" alt="{{movie.title}}" class="img-fluid image" />
+  </div>
+  <div class="col-md-6">
+    <h2>{{movie.title}}</h2>
+    <div class="d-flex">
+      <p class="text-info">{{movie.genre}}</p>
+      <span class="mx-2">&bull;</span>
+      <p class="text-info">{{movie.release_date}}</p>
+    </div>
+    <div class="d-flex mt-2 flex-wrap">
+      <p class="text-primary">Popularity: {{movie.vote_count}}</p>
+      <span class="mx-2">&bull;</span>
+      <p class="text-danger">Total Votes: {{movie.vote_count}}</p>
+      <span class="mx-2">&bull;</span>
+      <p class="text-warning">
+        Vote Average:
+        <i class="fa-solid fa-star me-2 f-20 text-warning"></i>
+        {{movie.vote_average}}
+      </p>
+    </div>
+    <div class="mt-4">
+      <h5 class="text-light">Overview</h5>
+      <p>{{movie.overview}}</p>
+    </div>
+  </div>
+</div>
 {% endblock %}

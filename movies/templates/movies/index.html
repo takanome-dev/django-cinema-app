@@ -1,26 +1,28 @@
 {% extends 'base.html' %} {% block content %}
-<table class="table table-bordered table-hover">
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Overview</th>
-      <th>Genre</th>
-      <th>Release Date</th>
-      <th>Votes</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for movie in movies %}
-    <tr>
-      <td>
-        <a href="{% url 'movies:detail' movie.id %}"> {{movie.title}} </a>
-      </td>
-      <td>{{movie.overview}}</td>
-      <td>{{movie.genre}}</td>
-      <td>{{movie.release_date}}</td>
-      <td>{{movie.vote_count}}</td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
+
+<div class="row my-4">
+  {% for movie in movies %}
+  <div class="col-lg-3 col-md-4 col-sm-6">
+    <div class="card border-primary mb-3 bg-dark">
+      <img
+        src="{{movie.url}}"
+        alt="{{movie.title}}"
+        class="card-img-top img-fluid"
+      />
+      <div class="card-body">
+        <h4 class="card-title text-truncate">
+          <a href="{% url 'movies:detail' movie.id %}"> {{movie.title}} </a>
+        </h4>
+        <div class="details">
+          <p class="card-text text-info">{{movie.genre}}</p>
+          <p class="card-text fw-bold">
+            <i class="fa-solid fa-star me-2 f-20 text-warning"></i>
+            {{movie.vote_average}}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
 {% endblock %}
