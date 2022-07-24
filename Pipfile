@@ -6,10 +6,11 @@ name = "pypi"
 [packages]
 django = "*"
 pylint-django = "*"
-psycopg2-binary = "*"
 django-dotenv = "*"
 gunicorn = "*"
 whitenoise = "*"
+psycopg2-binary = "*"
+django-on-heroku = "*"
 
 [dev-packages]
 
