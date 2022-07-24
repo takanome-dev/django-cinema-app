@@ -1,6 +1,6 @@
 <h2 align="center">🎥 Cinema App With Django 🐍</h2>
 
-<p align="center"><a href="https://github.com/TAKANOME-DEV/django-cinema-app"><img alt="Licence Badge" src="https://img.shields.io/github/license/TAKANOME-DEV/django-cinema-app?color=%2330C151"></a><a href="https://github.com/TAKANOME-DEV/django-cinema-app"><img alt="GitHub Actions status" src="https://github.com/TAKANOME-DEV/django-cinema-app/actions/workflows/codeql-analysis.yml/badge.svg"></a></p>
+<p align="center"><a href="https://github.com/TAKANOME-DEV/django-cinema-app"><img alt="Licence Badge" src="https://img.shields.io/github/license/TAKANOME-DEV/django-cinema-app?color=%2330C151"></a>  <a href="https://github.com/TAKANOME-DEV/django-cinema-app"><img alt="GitHub Actions status" src="https://github.com/TAKANOME-DEV/django-cinema-app/actions/workflows/codeql-analysis.yml/badge.svg"></a></p>
 
 A basic movie build with django.
 
