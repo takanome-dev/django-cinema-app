@@ -24,6 +24,6 @@ A basic movie build with django.
   python3 manage.py runserver
 ```
 
-## ⚖️ Licence
+## ⚖️ License
 
 The scripts and documentation in this project are released under the [AGPL License](LICENSE)
