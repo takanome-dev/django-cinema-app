@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.redirects',
     'django.contrib.staticfiles',
     'movies.apps.MoviesConfig',
+    'fontawesomefree'
 ]
 
 MIDDLEWARE = [
